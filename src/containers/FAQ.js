@@ -3,7 +3,7 @@ import { FaqBox } from '../components/faqbox';
 import styled from 'styled-components';
 
 const PageWrapper = styled.main`
-  background-color: #E5E5E5;
+  background-color: color: ${props=>props.theme.colors.lightGray};
   display: flex;
   flex-direction: column;
   align-items: center;
